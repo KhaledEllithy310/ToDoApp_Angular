@@ -1,0 +1,12 @@
+<div class="toDoProject">
+  <div class="row">
+    <div class="col-lg-12">
+      <app-input (inputFromChild)="inputFromChild($event)"></app-input>
+    </div>
+    <div class="list">
+      <div class="col-lg-12" *ngFor="let task of list_task; let i = index">
+        <app-list [task]="task" [index]="i"></app-list>
+      </div>
+    </div>
+  </div>
+</div>

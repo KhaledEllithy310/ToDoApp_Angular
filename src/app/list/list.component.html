@@ -1,0 +1,9 @@
+<div class="group" id="container{{ index }}">
+  <button class="btn btn-success m-2" (click)="complete_task(index)">
+    Complete
+  </button>
+  <button class="btn btn-danger m-2" (click)="delete_task(index)">
+    Delete
+  </button>
+  <span class="task m-2" id="task{{ index }}"> {{ task }}</span>
+</div>

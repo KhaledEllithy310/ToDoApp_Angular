@@ -1,0 +1,15 @@
+.form {
+  background-color: #09c;
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+}
+.form_btn button {
+  background-color: rgb(139, 95, 0);
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 6px;
+  text-transform: capitalize;
+  font-weight: 600;
+}
